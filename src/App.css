@@ -1,0 +1,12 @@
+.background{
+    background: rgba(226,242,238);
+}
+.navbar {
+    background: white;
+}
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: white;
+}

@@ -18,11 +18,11 @@ const CreatePost = (props) => {
     return ( 
         <form onSubmit={handleSubmit}>
             <div>
-                <label>Username</label>
+                <label>Name</label>
                 <input type='text' onChange={(event) => setUsername(event.target.value)}/>
             </div>
             <div>
-                <label>Message</label>
+                <label>Post</label>
                 <input type='text' onChange={(event) => setBody(event.target.value)}/>
             </div>
                 <button type='submit'>Post</button>
