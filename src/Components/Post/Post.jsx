@@ -6,8 +6,8 @@ const Post = ({username, body}) => {
             <h6>{username}</h6>
             <p>{body}</p>
             <div>
-            <i class="bi bi-hand-thumbs-up"></i>
-            <i class="bi bi-hand-thumbs-down"></i>
+                <i className="bi bi-hand-thumbs-up"></i>
+                <i className="bi bi-hand-thumbs-down"></i>
             </div>
         </div>
     );
