@@ -19,16 +19,12 @@ function App() {
         <div className="navbar">
           <NavBar/>
         </div>
-          <div className='col-md-6'>
-            <div className='border-box'>
-              <CreatePost addNewPostProperty={addNewPost}/>
-            </div>
-          </div>
-          <div className='col-md-6'>
-            <div className='border-box'>
-              <DisplayPosts parentPosts={posts}/>
-            </div>
-          </div>
+        <div className='border-box col-md-6 justify-self-center'>
+          <CreatePost addNewPostProperty={addNewPost}/>
+        </div>
+        <div className='border-box col-md-6 "d-flex align-items-stretch"'>
+          <DisplayPosts parentPosts={posts}/>
+        </div>
     </div>
   );
 }
