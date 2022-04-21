@@ -1,5 +1,6 @@
 .background{
     background: rgba(226,242,238);
+    height: 50em;
 }
 .navbar {
     background: white;
@@ -7,7 +8,11 @@
 .border-box {
     border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: grey;
+    box-shadow: 4px 4px 5px rgb(167, 167, 167); 
+    border-radius: .5em;
     background: white;
     align-items: stretch;
+    margin: 1em;
+    padding: 1em;
 }

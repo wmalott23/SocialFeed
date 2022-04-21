@@ -1,0 +1,31 @@
+.label{
+    padding: .5em;
+    padding-left: 0;
+    padding-top: 0;
+}
+.lower-label{
+    padding-right: 1em;
+}
+.box{
+    height: 3em;
+    padding: .5em;
+    padding-left: 0;
+}
+.input{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-color: rgb(199, 199, 199);
+    border-radius: .4em;
+    padding-left: 5em;
+    width: 27em;
+    text-align: left;
+    resize: none;
+    overflow: hidden;
+}
+.button{
+    border: 1px;
+    border-radius: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 1.5em;
+}

@@ -15,14 +15,14 @@ function App() {
   }
 
   return (
-    <div className="background">
-        <div className="navbar">
+    <div className="background col-md-12 d-flex align-items-center flex-column">
+        <div className="navbar col-md-12">
           <NavBar/>
         </div>
-        <div className='border-box col-md-6 justify-self-center'>
+        <div className='border-box d-flex col-md-6'>
           <CreatePost addNewPostProperty={addNewPost}/>
         </div>
-        <div className='border-box col-md-6 "d-flex align-items-stretch"'>
+        <div className='border-box col-md-6 justify-self-stretch'>
           <DisplayPosts parentPosts={posts}/>
         </div>
     </div>

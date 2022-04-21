@@ -3,13 +3,14 @@ import './Post.css'
 
 const Post = ({username, body}) => {
     return (  
-        <div className='container-fluid'>
+        <div className='post container-fluid'>
             <h6 className="justify-self-center">{username}</h6>
-            <p>{body}</p>
+            <p className="text-secondary">{body}</p>
             <div className="d-flex flex-row-reverse">
-                <button className="bi bi-hand-thumbs-up"></button>
-                <button className="bi bi-hand-thumbs-down"></button>
+                <i className="bi bi-hand-thumbs-down"></i>
+                <i className="bi bi-hand-thumbs-up"></i>
             </div>
+            <hr/>
         </div>
     );
 }
