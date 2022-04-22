@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
+import "./DislikeButton.css"
 
 const DislikeButton = (props) => {
 
     const [buttonClass, setButtonClass] = useState("inactive")
 
     function handleClick(){
-        if(buttonClass =="inactive"){
+        if(buttonClass === "inactive"){
             setButtonClass("active");
         }
         else{
             setButtonClass("inactive");
         }
     }
-    return ( 
-        <i className={buttonClass} onClick={handleClick}></i>
-     );
+        return ( 
+            <button>    
+                <i className="bi bi-hand-thumbs-down" onClick={handleClick}/>
+            </button>
+        );
 }
  
 export default DislikeButton;

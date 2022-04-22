@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
+import "./LikeButton.css"
 
 const LikeButton = (props) => {
 
-    const [buttonClass, setButtonClass] = useState("inactive");
+    const [likeButtonClass, setButtonClass] = useState("like-inactive");
 
     function handleClick(){
-        if(buttonClass =="inactive"){
-            setButtonClass("active");
+        if(likeButtonClass === "like-inactive"){
+            setButtonClass("like-active");
         }
         else{
-            setButtonClass("inactive");
+            setButtonClass("like-inactive");
         }
     }
-    return ( 
-        <i className={buttonClass} onClick={handleClick}></i>
-     );
+        return ( 
+            <i className={likeButtonClass} onClick={handleClick}>{props.className}</i>
+        );
 }
  
 export default LikeButton;

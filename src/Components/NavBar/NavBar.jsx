@@ -2,9 +2,11 @@ import "./NavBar.css"
 
 const NavBar = (props) => {
     return ( 
-        <h3 className="title p-1">Social
-          <small className="text-muted">Feed</small>
+      <div className="d-flex flex-row col-md-12">
+        <h3 className="title d-flex align-items-start">Social
+        <h3 className="title-two text-muted">Feed</h3>
         </h3>
+      </div>
      );
 }
  
