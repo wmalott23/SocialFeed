@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import LikeButton from './Buttons/LikeButton'
-import DislikeButton from './Buttons/DislikeButton'
 import './Post.css'
 
 
@@ -16,7 +15,6 @@ const Post = ({username, body}) => {
             <div className="d-flex justify-content-end">
                 <h5 className="p-2">Posted on {date}</h5>
                 <LikeButton />
-                <DislikeButton />
             </div>
             <hr/>
         </div>
