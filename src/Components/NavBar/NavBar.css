@@ -8,3 +8,9 @@
     margin-top: 0;
     font-size: 1em;
 }
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 570px) {
+    .nav-title{
+        width:100%;
+    }
+  }
