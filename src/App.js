@@ -22,7 +22,7 @@ function App() {
         <div className='border-box d-flex col-md-6'>
           <CreatePost addNewPostProperty={addNewPost}/>
         </div>
-        <div className='display-posts border-box col-md-6'>
+        <div className='display-posts border-box col-md-6 '>
           <DisplayPosts parentPosts={posts}/>
         </div>
     </div>
