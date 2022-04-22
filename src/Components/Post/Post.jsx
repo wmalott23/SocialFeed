@@ -13,7 +13,7 @@ const Post = ({username, body}) => {
             <h6 className="username justify-self-center">{username}</h6>
             <p className="message text-secondary">{body}</p>
             <div className="d-flex justify-content-end">
-                <h5 className="p-2">Posted on {date}</h5>
+                <h5 className="posted p-2">Posted on {date}</h5>
                 <LikeButton />
             </div>
             <hr/>

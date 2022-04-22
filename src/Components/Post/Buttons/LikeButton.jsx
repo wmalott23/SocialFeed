@@ -29,7 +29,7 @@ const LikeButton = (props) => {
                         <i className="bi bi-hand-thumbs-up"/>
                     </button>
                     <button className={dislikeButtonClass} onClick={handleDislikeClick}>    
-                        <i className="bi bi-hand-thumbs-up"/>
+                        <i className="bi bi-hand-thumbs-down"/>
                     </button>
                 </div>
     );
