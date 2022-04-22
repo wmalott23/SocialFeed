@@ -2,6 +2,10 @@
     border-bottom: 1px;
     border-color: black;
 }
-.bi{
-    margin-left: 1em;
+
+.username{
+    font-size: 2em;
+}
+.message{
+    font-size: 1.5em;
 }

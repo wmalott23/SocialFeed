@@ -1,8 +1,8 @@
-.label{
-    padding-right: 1em;
-}
 .lower-label{
     padding-right: 1em;
+}
+.lower-label-second {
+    padding-right: 1.5em;
 }
 .box{
     height: 3em;
@@ -26,6 +26,7 @@
     border-color: rgb(199, 199, 199);
     border-radius: .4em;
     width: 27em;
+    padding: 1em;
     text-align: left;
     resize: none;
     overflow: hidden;
