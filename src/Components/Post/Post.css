@@ -5,11 +5,3 @@
 .bi{
     margin-left: 1em;
 }
-
-.active{
-    background-color: green;
-}
-
-.inactive{
-    background-color: grey;
-}

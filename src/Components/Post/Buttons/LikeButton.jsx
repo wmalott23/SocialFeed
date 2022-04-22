@@ -3,19 +3,21 @@ import "./LikeButton.css"
 
 const LikeButton = (props) => {
 
-    const [likeButtonClass, setButtonClass] = useState("like-inactive");
+    const [buttonClass, setButtonClass] = useState("zero");
 
     function handleClick(){
-        if(likeButtonClass === "like-inactive"){
-            setButtonClass("like-active");
+        if(buttonClass === "zero"){
+            setButtonClass("one");
         }
         else{
-            setButtonClass("like-inactive");
+            setButtonClass("zero");
         }
     }
         return ( 
-            <i className={likeButtonClass} onClick={handleClick}>{props.className}</i>
+            <button className={buttonClass} onClick={handleClick}>    
+                <i className="bi bi-hand-thumbs-up"/>
+            </button>
         );
 }
  
-export default LikeButton;
+export default LikeButton

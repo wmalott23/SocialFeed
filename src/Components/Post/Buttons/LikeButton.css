@@ -1,8 +1,10 @@
-
-.like-active{
+.two{
+    background-color: red;
+}
+.one{
     background-color: green;
 }
 
-.like-inactive{
+.zero{
     background-color: grey;
 }

@@ -24,7 +24,7 @@ const CreatePost = (props) => {
             </div>
             <div className="lower-box d-flex flex-row col-md-12 text-muted">
                 <label className="lower-label align-self-start">Post:</label>
-                <textarea className="input p-3 justify-self-center" type='text' onChange={(event) => setBody(event.target.value)}/>
+                <textarea className="lower-input p-0 justify-self-center" type='text' onChange={(event) => setBody(event.target.value)}/>
                 <button className="button btn-primary align-self-end" type='submit'>Create</button>
             </div>
         </form>

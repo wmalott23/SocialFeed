@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
-import "./DislikeButton.css"
+import "./LikeButton.css"
 
 const DislikeButton = (props) => {
 
-    const [buttonClass, setButtonClass] = useState("inactive")
+    const [buttonClass, setButtonClass] = useState("zero")
 
     function handleClick(){
-        if(buttonClass === "inactive"){
-            setButtonClass("active");
+        if(buttonClass === "zero"){
+            setButtonClass("two");
         }
         else{
-            setButtonClass("inactive");
+            setButtonClass("zero");
         }
     }
         return ( 
-            <button>    
-                <i className="bi bi-hand-thumbs-down" onClick={handleClick}/>
+            <button className={buttonClass} onClick={handleClick}>    
+                <i className="bi bi-hand-thumbs-down"/>
             </button>
         );
 }

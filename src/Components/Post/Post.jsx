@@ -12,8 +12,8 @@ const Post = ({username, body}) => {
             <h6 className="justify-self-center">{username}</h6>
             <p className="text-secondary">{body}</p>
             <div className="d-flex flex-row-reverse">
-                <LikeButton />
                 <DislikeButton />
+                <LikeButton />
             </div>
             <hr/>
         </div>

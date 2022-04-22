@@ -14,7 +14,17 @@
     border-left-width: 1px;
     border-color: rgb(199, 199, 199);
     border-radius: .4em;
-    padding-left: 5em;
+    padding-left: 5.5em;
+    width: 27em;
+    text-align: left;
+    resize: none;
+    overflow: hidden;
+}
+.lower-input{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-color: rgb(199, 199, 199);
+    border-radius: .4em;
     width: 27em;
     text-align: left;
     resize: none;
