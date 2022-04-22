@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
 
-  const [posts, setPosts] = useState([{username: "Uncle Phil", body: "Will!", likes: 0, dislikes: 0}])
+  const [posts, setPosts] = useState([{username: "Uncle Phil", body: "Will!"}])
 
   function addNewPost(post){
     let tempPosts = [...posts, post];
